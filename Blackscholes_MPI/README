@@ -1,0 +1,5 @@
+This code is the Distributed Memory implementation of BlackScholes Option Pricing Formula Calculation from popular PARSEC Multithreaded Benchmark. I used serial and multithreaded code of PARSEC benchmark and further extended it to add support for Message Passing Interface. Due to the data parallel nature of the problem, I used Option wide domain decomposition.
+
+Original Author: Richard O. Lee
+Modified by: Chirstian Bienia and Christian Fensch
+MPI implementation by: Jahanzeb Maqbool, SEECS, NUST, Pakistan.

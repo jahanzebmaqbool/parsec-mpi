@@ -1,0 +1,6 @@
+
+This code is the Distributed Memory implementation of Fluidanimate SPH solver from popular PARSEC Multithreaded Benchmark. I used serial and multithreaded code of PARSEC benchmark and further extended it to add support for Message Passing Interface. Domain decomposition of original 3-D grid is done in Cartesian manner and proper datastructure and utility functions are added to enable MPI based parallel implementation.
+
+Original Author: Richard O. Lee
+Multithreaded Modified by: Chirstian Bienia and Christian Fensch
+MPI implementation by: Jahanzeb Maqbool, SEECS, NUST, Pakistan.
