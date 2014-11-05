@@ -188,7 +188,7 @@ Cell addCell(Cell cell1,Cell cell2,int count1){
 
 
 /**
- * returns the 1-D index out of 3-D index (partitioned to flat). 
+ * utilises compareCell function to compare multiple cells. 
  * Added by: Jahanzeb Maqbool
 */
 void compareCells(Cell* cells1,int* numPar1,int size1,Cell* cells2,int* numPar2,int size2,int rank){
